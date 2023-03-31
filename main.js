@@ -30,6 +30,7 @@ let round = document.querySelector('.round')
 gsap.to(round, {
   repeat:-1,
   duration:0.0003,
+
   onRepeat:()=>{
     gsap.set(round,{
       css:{

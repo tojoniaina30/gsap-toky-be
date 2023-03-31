@@ -6,6 +6,13 @@ body{
   gap: 5px;
   width: 100vw;
   height: 100vh;
+  background-color: #fff;
+  cursor: none;
+}
+p{
+  font-style: large;
+  font-weight: 400;
+  font-size: 64px;
 }
 .box{
   width: 50px;
@@ -19,5 +26,7 @@ body{
   width: 30px;
   height: 30px;
   border-radius: 50px;
-  background-color: brown;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
 }
